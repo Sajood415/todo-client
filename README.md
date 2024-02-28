@@ -16,7 +16,7 @@ v20.7.0
 ## Clone Project
 ```bash
 git clone https://github.com/Sajood415/todo-client
-cd todo-server
+cd todo-client
 ```
 
 To run this project locally, you'll have to install the node_modules. You can do that by using
