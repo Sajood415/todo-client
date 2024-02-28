@@ -26,8 +26,15 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+details details:last-of-type:not([open]) summary {
+  border: none;
+  padding-bottom: 0;
+}
+
+details .expand {
+  transition: transform 200ms ease-in-out;
+}
+
+details[open] .expand {
+  rotate: 180deg;
 }
